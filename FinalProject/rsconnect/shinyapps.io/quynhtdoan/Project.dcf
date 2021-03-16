@@ -1,0 +1,12 @@
+name: Project
+title: Project
+username:
+account: quynhtdoan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3804372
+bundleId: 4355628
+url: https://quynhtdoan.shinyapps.io/Project/
+when: 1615938318.59555
+asMultiple: FALSE
+asStatic: FALSE

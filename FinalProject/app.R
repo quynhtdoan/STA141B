@@ -1,12 +1,12 @@
-library(dplyr)
-library(DT)
+library(dplyr, warn.conflicts = FALSE)
+library(DT, warn.conflicts = FALSE)
 library(ggplot2)
 #library(maps)
 #library(mapproj)
 #library(ggmap)
 library(leaflet)
 library(httr)
-library(jsonlite)
+library(jsonlite, warn.conflicts = FALSE)
 library(shiny)
 library(bslib)
 
@@ -20,7 +20,7 @@ ui <- fluidPage(
                tabPanel("Business Search",
                         sidebarLayout(
                             sidebarPanel(
-                                p("Shows a table of businesses based on your search terms."),
+                                p("Shows a table of businesses based on search terms."),
                                 hr(),
                                 textInput("search_input", "Search Input"),
                                 textInput("location_input", "Location Input"),
